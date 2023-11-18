@@ -4,6 +4,9 @@ public class Book {
     private String bookID;
     private String bookName;
 
+    public Book() {
+    }
+
     public Book(String bookID, String bookName) {
         this.bookID = bookID;
         this.bookName = bookName;
